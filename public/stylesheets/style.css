@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0px; }
+
+/*[class*="col-"] {
+    width: 100%;
+}*/
+html {
+  font-family: "Lucida Sans", sans-serif; }
+
+body {
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column; }
+
+nav {
+  /*Flex-Box*/
+  height: 10vh;
+  padding: 10px;
+  background-color: #555555;
+  width: 100%;
+  position: fixed; }
+
+#logo {
+  float: left;
+  cursor: pointer;
+  width: 70px;
+  height: 100%;
+  background-color: #753467; }
+
+#hbg {
+  float: right;
+  cursor: pointer;
+  width: 40px;
+  height: 100%;
+  background-color: #595933; }
+
+.menu {
+  /*Flex-Box*/
+  display: none;
+  text-align: center;
+  height: calc(50vh - 10vh);
+  width: 100%;
+  z-index: 100;
+  background-color: #222;
+  top: 10vh;
+  position: fixed; }
+
+.menu.show {
+  /*Flex-Box*/
+  display: flex; }
+
+.menu > ul {
+  /*Flex-Box*/
+  width: 100%;
+  align-self: center;
+  margin-top: -30px;
+  padding-left: 0px; }
+
+.menu > ul > li {
+  list-style-type: none;
+  margin-top: 3vh; }
+
+#content {
+  margin-top: 10px;
+  padding: 20px;
+  height: 1000px; }
+
+#home-contrainer {
+  text-align: center; }
+
+.xxx {
+  height: calc(100vh - 10vh);
+  background-color: #66CCFF;
+  border: 2px solid #fff;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */
